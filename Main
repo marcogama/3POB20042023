@@ -1,0 +1,51 @@
+package mercado_ABC;
+
+import java.util.Scanner;
+
+//https://github.com/marcogama/3POB20042023.git
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		Scanner sc = new Scanner(System.in);
+		produto A = new produto();
+		produto B = new produto();
+		
+		System.out.println("Digite o Nome do produto");
+		A.nome = sc.next();
+		
+		System.out.println("Digite o Valor");
+		A.valor = sc.nextFloat();
+		
+		System.out.println("Digite a quantidade");
+		A.quant = sc.nextInt();
+		
+		System.out.println("Observacoes importantes");
+		A.obs = sc.next();
+		
+		System.out.println("Digite o codigo de barra");
+		A.cod_barra = sc.nextInt();
+		
+		System.out.println("Digite o Nome do produto");
+		B.nome = sc.next();
+		
+		System.out.println("Digite o Valor");
+		B.valor = sc.nextFloat();
+		
+		System.out.println("Digite a quantidade");
+		B.quant = sc.nextInt();
+		
+		System.out.println("Observacoes importantes");
+		B.obs = sc.next();
+		
+		System.out.println("Digite o codigo de barra");
+		B.cod_barra = sc.nextInt();
+		
+		
+		sc.close();
+		
+	}
+
+}
