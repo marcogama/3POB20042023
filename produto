@@ -1,0 +1,9 @@
+package mercado_ABC;
+
+public class produto {
+	
+	String nome, obs;
+	float valor;
+	int quant, cod_barra;
+	
+}
