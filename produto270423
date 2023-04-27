@@ -1,0 +1,11 @@
+package br_faeterj_rio;
+
+public class produto {
+
+	public String nome;
+	public double valor;
+	public int qtd;
+	public String descricao;
+	public String codBarra;
+
+}
