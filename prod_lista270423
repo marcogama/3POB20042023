@@ -1,0 +1,27 @@
+package br_faeterj_rio;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<produto> lproduto = new ArrayList();
+		Scanner sc =  new Scanner(System.in);
+		
+		produto prod = new produto();
+		prod.nome = sc.next();
+	    prod.valor = sc.nextDouble();
+	    prod.qtd = sc.nextInt();
+	    prod.descricao = sc.next();
+	    prod.codBarra = sc.next();
+		lproduto.add(prod);
+		
+		for (produto prd : lproduto) {
+			System.out.println(prod.nome);
+		}
+	}
+
+}
