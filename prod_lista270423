@@ -11,12 +11,16 @@ public class Main {
 		ArrayList<produto> lproduto = new ArrayList();
 		Scanner sc =  new Scanner(System.in);
 		
-		produto prod = new produto();
+		
+		System.out.println("Digite os dados do produto X");
+		
 		prod.nome = sc.next();
 	    prod.valor = sc.nextDouble();
 	    prod.qtd = sc.nextInt();
 	    prod.descricao = sc.next();
 	    prod.codBarra = sc.next();
+	    produto prod = new produto(nome, descricao, codBarra, valor, qtd);
+	    
 		lproduto.add(prod);
 		
 		for (produto prd : lproduto) {
