@@ -7,5 +7,14 @@ public class produto {
 	public int qtd;
 	public String descricao;
 	public String codBarra;
+	
+	public produto(String nome, String descricao, String codBarra, double valor, int qtd) {
+		
+		this.nome = nome;
+		this.valor = valor;
+		this.qtd = qtd;
+		this.descricao = descricao;
+		this.codBarra = codBarra;
+	}
 
 }
